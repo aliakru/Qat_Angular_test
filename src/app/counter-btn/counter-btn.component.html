@@ -1,0 +1,15 @@
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+
+<div>
+  <button
+    mat-stroked-button
+    color="red"
+    [ngClass]="counter > 10 ? 'toomuch' : 'btn'"
+    (click)="incCount()"
+  >
+    Clicked {{ counter }} times
+  </button>
+</div>

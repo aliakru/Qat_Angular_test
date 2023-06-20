@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+
+.toomuch {
+  min-width: fit-content;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+
+.btn {
+  min-width: fit-content;
+  padding: 10px;
+  background-color: rgb(60, 109, 201);;
+  color: white;
+}

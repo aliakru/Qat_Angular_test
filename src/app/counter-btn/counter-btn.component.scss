@@ -1,0 +1,13 @@
+.toomuch {
+  &:host {
+    display: block;
+    background-color: red;
+  }
+}
+
+.btn {
+  min-width: fit-content;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
